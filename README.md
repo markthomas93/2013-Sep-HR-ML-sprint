@@ -2,19 +2,20 @@
 =====================
 > Curriculum for Machine Learning sprint at Hack Reactor
 
-Contents
+### Contents
 Introduction
 Getting familiar with ML - Titanic survival prediction
-Basic Requirements - Part 1
+Basic Requirements
 Basic Requirements - Part 2
 Extra Credit
-Nightmare Mode
+Nightmare Mode
 
 Introduction
 How does your spam filter predict what emails to mark as spam? How does Google guess the traffic to the Giant’s game next week? How does Netflix make you movie recommendations? Machine learning is the art of using data to make predictions.
 
 In this sprint you will be using records of survivors from the Titanic disaster and machine learning  to create an algorithmic model capable of predicting whether a passenger lived or died, and what kind of things about a person would make them more or less likely to have survived ( for example, as women and children were given priority seating among the ship’s scarce lifeboats, they were much more likely to survive than other demographics).
-Getting familiar with ML - Titanic survival prediction
+
+### Getting familiar with ML - Titanic survival prediction
 What ML is & is not
 is: using algorithms to analyze and train a large set of data to make predictions
 is not: writing sentient AI which teaches itself
