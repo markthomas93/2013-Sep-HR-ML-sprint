@@ -3,11 +3,17 @@
 > Curriculum for Machine Learning sprint at Hack Reactor
 
 ### Contents
+
 Introduction
+
 Getting familiar with ML - Titanic survival prediction
+
 Basic Requirements - Excel, R, and Rattle
+
 Basic Requirements - Python
+
 Extra Credit
+
 Nightmare Mode
 
 ### Introduction
