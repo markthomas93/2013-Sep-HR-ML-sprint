@@ -20,8 +20,7 @@ In this sprint you will be using records of survivors from the Titanic disaster 
 In this assignment, you’ll learn how to apply machine learning to predict who will lived and died on Titanic voyage. You will start using simple pivot tables and regression in excel. Then using Python to apply regressions and implementing one of the random forest algorithms.
 
 ### Basic Requirements - Excel, R, and Rattle
-* Watch Introduction to ML video
-* Watch the videos in the Introduction section of the coursera ML course
+* Watch the [videos from week 1](https://class.coursera.org/ml-003/lecture/index) of the Coursera Machine Learning class (approx. 20 - 40 minutes, depending on whether you watch them at 2x speed or not). 
 * Learn basic terminology (and make sure to look up any other words you don’t know along the way)
   * CSV
   * Dependent Variable
@@ -30,7 +29,7 @@ In this assignment, you’ll learn how to apply machine learning to predict who 
   * Training / Validation / Testing Data
 
 
-
+##### Problem Analysis
 Understand the data by using excel, google spreadsheet or a similar tool (pivot tables can be used for this). Determine:
 Percent of people who survived by sex
 Percent of people who survived by class
