@@ -30,13 +30,14 @@ In this assignment, you’ll learn how to apply machine learning to predict who 
 
 
 ##### Problem Analysis
-Understand the data by using excel, google spreadsheet or a similar tool (pivot tables can be used for this). Determine:
-Percent of people who survived by sex
-Percent of people who survived by class
-Percent of people who survived by age
-Any other information you think may be relevant or that will help you understand the data
-Load rattle and get comfortable with its interface, choose a model
-Load the data into rattle
+* Data is in ```train.CSV```
+* Understand the data by using Excel, google spreadsheet or a similar tool. Pivot tables are extremely helpful here. Determine:
+  * Percent of people who survived by sex
+  * Percent of people who survived by class
+  * Percent of people who survived by age
+  * Any other information you think may be relevant or that will help you understand the data
+* Load rattle and get comfortable with its interface, choose a model
+  * Load the data into rattle
 Import the csv
 partition the data into training / validation / test sets
 choose the target column (data you want to predict)
