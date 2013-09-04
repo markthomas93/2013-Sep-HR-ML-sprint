@@ -3,18 +3,12 @@
 > Curriculum for Machine Learning sprint at Hack Reactor
 
 ### Contents
-
-Introduction
-
-Getting familiar with ML - Titanic survival prediction
-
-Basic Requirements - Excel, R, and Rattle
-
-Basic Requirements - Python
-
-Extra Credit
-
-Nightmare Mode
+* Introduction
+* Getting familiar with ML - Titanic survival prediction
+* Basic Requirements - Excel, R, and Rattle
+* Basic Requirements - Python
+* Extra Credit
+* Nightmare Mode
 
 ### Introduction
 How does your spam filter predict what emails to mark as spam? How does Google guess the traffic to the Giant’s game next week? How does Netflix make you movie recommendations? Machine learning is the art of using data to make predictions.
