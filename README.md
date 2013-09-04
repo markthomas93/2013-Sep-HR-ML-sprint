@@ -5,35 +5,32 @@
 ### Contents
 Introduction
 Getting familiar with ML - Titanic survival prediction
-Basic Requirements
-Basic Requirements - Part 2
+Basic Requirements - Excel, R, and Rattle
+Basic Requirements - Python
 Extra Credit
 Nightmare Mode
 
-Introduction
+### Introduction
 How does your spam filter predict what emails to mark as spam? How does Google guess the traffic to the Giant’s game next week? How does Netflix make you movie recommendations? Machine learning is the art of using data to make predictions.
 
-In this sprint you will be using records of survivors from the Titanic disaster and machine learning  to create an algorithmic model capable of predicting whether a passenger lived or died, and what kind of things about a person would make them more or less likely to have survived ( for example, as women and children were given priority seating among the ship’s scarce lifeboats, they were much more likely to survive than other demographics).
+In this sprint you will be using records of survivors from the Titanic disaster and machine learning to create an algorithmic model capable of predicting whether a passenger lived or died, and what kind of things about a person would make them more or less likely to have survived (for example, as women and children were given priority seating among the ship’s scarce lifeboats, they were much more likely to survive than other demographics).
 
 ### Getting familiar with ML - Titanic survival prediction
-What ML is & is not
-is: using algorithms to analyze and train a large set of data to make predictions
-is not: writing sentient AI which teaches itself
-Understanding the basic concepts
-Titanic Assignment
+
 In this assignment, you’ll learn how to apply machine learning to predict who will lived and died on Titanic voyage. You will start using simple pivot tables and regression in excel. Then using Python to apply regressions and implementing one of the random forest algorithms.
-Basic Requirements - Part 1
-Watch Introduction to ML video
-Watch the videos in the Introduction section of the coursera ML course
-Learn basic terminology (and make sure to look up any other words you don’t know along the way)
-CSV
-Dependent Variable
-Model
-Features
-Training / Validation / Testing Data
-R (data analysis, stats, graphics, machine learning prototyping)
-Rattle (a GUI library for machine learning in R)
-Problem Analysis
+
+### Basic Requirements - Excel, R, and Rattle
+* Watch Introduction to ML video
+* Watch the videos in the Introduction section of the coursera ML course
+* Learn basic terminology (and make sure to look up any other words you don’t know along the way)
+  * CSV
+  * Dependent Variable
+  * Model
+  * Features
+  * Training / Validation / Testing Data
+
+
+
 Understand the data by using excel, google spreadsheet or a similar tool (pivot tables can be used for this). Determine:
 Percent of people who survived by sex
 Percent of people who survived by class
