@@ -5,8 +5,8 @@
 ### Contents
 * Introduction
 * Getting familiar with ML - Titanic survival prediction
-* Basic Requirements - Excel, R, and Rattle
-* Basic Requirements - Python
+* Prototyping Models with Excel, R, and Rattle
+* Python FTW
 * Extra Credit
 * Nightmare Mode
 
@@ -20,7 +20,7 @@ You will start by using simple pivot tables and regression in Excel. Then you wi
 ### Setting up your environment
 * [The wiki](https://github.com/palimpsests/2013-Sep-HR-ML-sprint.wiki.git) has instructions
 
-### Basic Requirements - Excel, R, and Rattle
+### Prototyping Models with Excel, R, and Rattle
 * Watch the [videos from week 1](https://class.coursera.org/ml-003/lecture/index) of the Coursera Machine Learning class (approx. 20 - 40 minutes, depending on whether you watch them at 2x speed or not).
 * Look up any terminology you're not familiar with, e.g.
   * CSV
@@ -45,7 +45,7 @@ You will start by using simple pivot tables and regression in Excel. Then you wi
   * Choose the target column (data you want to predict)
 * Visualize the data using Rattle’s tools on the explore tab
   * Explore the options for each section
-  * At a minimum,  use Explore → Interactive → Latticist functionality
+  * At a minimum,  use Explore → Interactive → Latticist
   * Try to find a view to support the conclusions you came up with during the problem analysis section above
 * Explore the models available in Rattle
   * Why are there different types of models?
@@ -70,7 +70,7 @@ You will start by using simple pivot tables and regression in Excel. Then you wi
 * Watch [Model Selection and Train/Validation/Test Sets](https://class.coursera.org/ml-003/lecture/61) Coursera video (12 min)
   * Understand why you need train / validation / and test data sets and how they help solve the overfitting problem
 
-### Basic Requirements - Python
+### Python FTW
 
 * Successfully complete the [Python tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-python) section of the Kaggle Titanic tutorial
   * Convert CSV file into a Pandas dataframe
