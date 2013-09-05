@@ -55,58 +55,56 @@ You will start by using simple pivot tables and regression in Excel. Then you wi
   * Become familiar with the Evaluate Tab
   * In the Data section, choose validation.  This will run your model on the validation data
 
-Evaluate the testing data using the model you chose above
-* Choose type: Score, Data type: csv: test.csv
-* This will output a file in CSV format.
-* Compare this to the answer.csv file to check the accuracy of your model.
+* Evaluate the testing data using the model you chose above
+  * Choose type: Score, Data type: csv: test.csv
+  * This will output a file in CSV format.
+  * Compare this to the answer.csv file to check the accuracy of your model.
 
 ##### Higher Level Concepts:
+
 * Watch [The Problem of Overfitting](https://class.coursera.org/ml-003/lecture/39) Coursera video (10 min)
   * You can ignore the mathematical equations in the video, but you should understand the high level concept of overfitting and how to fix it
 * Watch [Model Selection and Train/Validation/Test Sets](https://class.coursera.org/ml-003/lecture/61) Coursera video (12 min)
   * Understand why you need train / validation / and test data sets and how they help solve the overfitting problem
 
 ### Basic Requirements - Python
-> Successfully complete the [Python tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-python) section of the Kaggle Titanic tutorial
-* Convert CSV file into a Pandas dataframe
-* Play with the data (selecting / slicing / dicing).
-* Write the “all females survive” model to a CSV.
-* Create a new feature by regrouping and separating the ticket fares into bins.
-Combine your new feature with existing features to create a more accurate “survival table”.
-Write the results to a CSV using the process described in the tutorial.
-Watch this Introduction video that talks about the data science process and the Random Forest Algorithm (the second half of the video is especially pertinent).
-Using the Random Forest Tutorial on Kaggle and scikit learn, rewrite your code to make predictions using a Random Forest algorithm
-Convert strings to floats and booleans to integers
-Fill out missing data using pandas (this will make your prediction more accurate)
-Use a Random Forest algorithm to make predictions
-Tune the parameters for your Random Forest algorithm
-Write the results of your Random Forest algorithm to a CSV.
-Extra Credit
-Write additional scripts to practice data munging
-Split data into training / cross validation / testing sets
-Normalize and scale the data so all values are between zero and one
-Research a layout of the Titanic and use it to engineer at least two completely unique features
-Read “Data Mining with Rattle and R” by Graham Williams
-Go through the Scikit-learn tutorial: http://scikit-learn.org/stable/tutorial/index.html.
-Watch this video on Sciki-learn, follow along in an iPython notebook: http://www.youtube.com/watch?v=cHZONQ2-x7I
-Read the first chapter of “Python for Data Science” by Wes McKinney
-Watch the “Linear Regression” ML Coursera Lecture
-Watch the “Regularization” ML Coursera Lecture
-Watch the “Applying Machine Learning” ML Coursera Lecture
-Nightmare Mode
-Setup your own Machine Learning environment with the following tools. Use Google to search for specifics for your machine / operating system.
-If on OS X, you may want to install an Ubuntu Virtual Machine. This can facilitate the installation of various python and R packages, but is not absolutely necessary. The following link walks you through a native install of many of the Python packages: http://penandpants.com/2013/04/04/install-scientific-python-on-mac-os-x/
-R
-Rstudio (IDE)
-rattle
-Python
-Numpy, Scipy, Scikit-Learn, NLTK, Pandas, Matplotlib
-An IDE can be helpful (Spyder, Enthought, or Pycharm).
-Find a Kaggle competition where data includes blocks of text and use the NLTK library to extract and engineer 10 unique features. What are the time complexities of your algorithms?
-Get the data for the Quora Answer Classifier challenge and make a prediction using a logistic regression model (beware the implications of dealing with sparse data)
-Rewrite your code to implement an algorithm that creates unique feature combinations to be used by your model.
-Rewrite your code to implement “one hot encoding” before predictions are made.
-Rewrite your LR model to implement  “greedy feature selection” -- an algorithm that keeps track of the most useful features as it runs and disregards the poor ones.
-Rewrite your LR model to use a cross-validation loop to score itself and output results to a CSV.
-Win money on Kaggle!
+
+* Successfully complete the [Python tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-python) section of the Kaggle Titanic tutorial
+  * Convert CSV file into a Pandas dataframe
+  * Munge the data (selecting / slicing / dicing).
+  * Write the “all females survive” model to a CSV.
+  * Create a new feature by regrouping and separating the ticket fares into bins.
+  * Combine your new feature with existing features to create a more accurate “survival table”.
+  * Write the results to a CSV using the process described in the tutorial.
+* Watch [this introduction video](http://www.youtube.com/watch?v=kwt6XEh7U3g) that talks about the data science process and the Random Forest Algorithm (the second half of the video is especially pertinent).
+* Using the [Random Forest Tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-random-forests) on Kaggle and Scikit-Learn, rewrite your code to make predictions using a Random Forest algorithm
+  * Convert strings to floats and booleans to integers
+  * Fill out missing data using Pandas (this will make your prediction more accurate)
+  * Use a Random Forest algorithm to make predictions
+  * Tune the parameters for your Random Forest algorithm
+  * Write the results of your Random Forest algorithm to a CSV.
+
+### Extra Credit
+
+* Write additional scripts to practice data munging
+* Split data into training / cross validation / testing sets
+* Normalize and scale the data so all values are between zero and one
+* Research a layout of the Titanic and use it to engineer at least two completely unique features
+* Read “Data Mining with Rattle and R” by Graham Williams
+* Go through the Scikit-learn tutorial: http://scikit-learn.org/stable/tutorial/index.html.
+* Watch this video on Sciki-learn, follow along in an iPython notebook: http://www.youtube.com/watch?v=cHZONQ2-x7I
+* Read the first chapter of “Python for Data Science” by Wes McKinney
+* Watch the “Linear Regression” ML Coursera Lecture
+* Watch the “Regularization” ML Coursera Lecture
+* Watch the “Applying Machine Learning” ML Coursera Lecture
+
+### Nightmare Mode
+
+* Find a Kaggle competition where data includes blocks of text and use the NLTK library to extract and engineer 10 unique features. What are the time complexities of your * algorithms?
+* Get the data for the Quora Answer Classifier challenge and make a prediction using a logistic regression model (beware the implications of dealing with sparse data)
+* Rewrite your code to implement an algorithm that creates unique feature combinations to be used by your model.
+* Rewrite your code to implement “one hot encoding” before predictions are made.
+* Rewrite your LR model to implement  “greedy feature selection” -- an algorithm that keeps track of the most useful features as it runs and disregards the poor ones.
+* Rewrite your LR model to use a cross-validation loop to score itself and output results to a CSV.
+* Win money on Kaggle!
 
