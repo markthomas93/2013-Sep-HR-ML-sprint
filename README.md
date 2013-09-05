@@ -17,6 +17,9 @@ We created this sprint by adapting a Kaggle tutorial -- you will be using record
 
 You will start by using simple pivot tables and regression in Excel. Then you will use Python to apply regression models and implement a random forest algorithm.
 
+### Setting up your environment
+* [The wiki](https://github.com/palimpsests/2013-Sep-HR-ML-sprint.wiki.git) has instructions
+
 ### Basic Requirements - Excel, R, and Rattle
 * Watch the [videos from week 1](https://class.coursera.org/ml-003/lecture/index) of the Coursera Machine Learning class (approx. 20 - 40 minutes, depending on whether you watch them at 2x speed or not).
 * Look up any terminology you're not familiar with, e.g.
@@ -86,7 +89,6 @@ You will start by using simple pivot tables and regression in Excel. Then you wi
 
 ### Extra Credit
 
-* Write additional scripts to practice data munging
 * Split data into training / cross validation / testing sets
 * Normalize and scale the data so all values are between zero and one
 * Research a layout of the Titanic and use it to engineer at least two completely unique features
@@ -101,7 +103,7 @@ You will start by using simple pivot tables and regression in Excel. Then you wi
 ### Nightmare Mode
 
 * Find a Kaggle competition where data includes blocks of text and use the NLTK library to extract and engineer 10 unique features. What are the time complexities of your * algorithms?
-* Get the data for the Quora Answer Classifier challenge and make a prediction using a logistic regression model (beware the implications of dealing with sparse data)
+* Get the [data](http://qsf.cf.quoracdn.net/QuoraAnswerClassifier_testcases.zip) for the Quora Answer Classifier challenge and make a prediction using a logistic regression model (beware the implications of dealing with sparse data)
 * Rewrite your code to implement an algorithm that creates unique feature combinations to be used by your model.
 * Rewrite your code to implement “one hot encoding” before predictions are made.
 * Rewrite your LR model to implement  “greedy feature selection” -- an algorithm that keeps track of the most useful features as it runs and disregards the poor ones.
