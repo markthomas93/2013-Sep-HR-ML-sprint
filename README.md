@@ -30,7 +30,7 @@ You will start by using simple pivot tables and regression in Excel. Then you wi
 ##### Problem Analysis
 
 * The data you'll be working with is in ```train.csv```
-* Understand the data by using Excel, google spreadsheet or a similar tool. Pivot tables are extremely helpful here. Determine:
+* Understand the data by using Excel, Google spreadsheets, or a similar tool. Pivot tables are extremely helpful here. Determine:
   * Percent of people who survived by sex
   * Percent of people who survived by class
   * Percent of people who survived by age
@@ -42,7 +42,7 @@ You will start by using simple pivot tables and regression in Excel. Then you wi
   * Choose the target column (data you want to predict)
 * Visualize the data using Rattle’s tools on the explore tab
   * Explore the options for each section
-  * At a minimum,  use the Explore → Interactive → Latticist
+  * At a minimum,  use Explore → Interactive → Latticist functionality
   * Try to find a view to support the conclusions you came up with during the problem analysis section above
 * Explore the models available in Rattle
   * Why are there different types of models?
@@ -60,18 +60,18 @@ Evaluate the testing data using the model you chose above
 * This will output a file in CSV format.
 * Compare this to the answer.csv file to check the accuracy of your model.
 
-Higher Level Concepts:
-Watch the coursera ML Regularization (week 3) - The problem of overfitting (10 min)
-you can ignore the mathematical equations in the video, but you should understand the high level concept of overfitting and how to fix it
-Watch the coursera ML Advice for Applying Machine Learning (week 6) - Model Selection and Train / Validation / Test sets (12 min)
-understand why you need train / validation / and test data sets and how they help solve the overfitting problem
+##### Higher Level Concepts:
+* Watch [The Problem of Overfitting](https://class.coursera.org/ml-003/lecture/39) Coursera video (10 min)
+  * You can ignore the mathematical equations in the video, but you should understand the high level concept of overfitting and how to fix it
+* Watch [Model Selection and Train/Validation/Test Sets](https://class.coursera.org/ml-003/lecture/61) Coursera video (12 min)
+  * Understand why you need train / validation / and test data sets and how they help solve the overfitting problem
 
-Basic Requirements - Part 2
-Successfully complete the Python tutorial section of the Titanic problem on Kaggle
-Convert CSV file into pandas object.
-Play with the data (selecting / slicing / dicing).
-Write the “all females survive” model to a CSV.
-Create a new feature by regrouping and separating the ticket fares into bins.
+### Basic Requirements - Python
+> Successfully complete the [Python tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-python) section of the Kaggle Titanic tutorial
+* Convert CSV file into a Pandas dataframe
+* Play with the data (selecting / slicing / dicing).
+* Write the “all females survive” model to a CSV.
+* Create a new feature by regrouping and separating the ticket fares into bins.
 Combine your new feature with existing features to create a more accurate “survival table”.
 Write the results to a CSV using the process described in the tutorial.
 Watch this Introduction video that talks about the data science process and the Random Forest Algorithm (the second half of the video is especially pertinent).
