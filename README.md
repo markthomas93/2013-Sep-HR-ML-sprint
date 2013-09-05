@@ -4,7 +4,7 @@
 
 ### Contents
 * Introduction
-* Getting familiar with ML - Titanic survival prediction
+* Setting up your environment
 * Prototyping Models with Excel, R, and Rattle
 * Python FTW
 * Extra Credit
@@ -18,22 +18,13 @@ We created this sprint by adapting a Kaggle tutorial -- you will be using record
 You will start by using simple pivot tables and regression in Excel. Then you will use Python to apply regression models and implement a random forest algorithm.
 
 ### Setting up your environment
-* [The wiki](https://github.com/palimpsests/2013-Sep-HR-ML-sprint.wiki.git) has instructions
+* [The wiki](https://github.com/palimpsests/2013-Sep-HR-ML-sprint/wiki/Setting-up-your-dev-environment) has instructions
 
 ### Prototyping Models with Excel, R, and Rattle
 * Watch the [videos from week 1](https://class.coursera.org/ml-003/lecture/index) of the Coursera Machine Learning class (approx. 20 - 40 minutes, depending on whether you watch them at 2x speed or not).
-* Look up any terminology you're not familiar with, e.g.
-  * CSV
-  * Dependent/Independent Variables
-  * Model
-  * Features
-  * Training / Validation / Testing Data
-
-
-##### Problem Analysis
 
 * The data you'll be working with is in ```train.csv```
-* Understand the data by using Excel, Google spreadsheets, or a similar tool. Pivot tables are extremely helpful here. Determine:
+* Explore the data by using Excel, Google spreadsheets, or similar software. Pivot tables are extremely helpful here. Determine:
   * Percent of people who survived by sex
   * Percent of people who survived by class
   * Percent of people who survived by age
