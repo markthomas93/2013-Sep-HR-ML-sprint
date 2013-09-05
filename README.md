@@ -15,11 +15,11 @@ How does your spam filter predict what emails to mark as spam? How does Google g
 
 We created this sprint by adapting a Kaggle tutorial -- you will be using records of survivors from the Titanic disaster to create an algorithmic model capable of predicting whether a passenger lived or died, and what kind of things about a person would make them more or less likely to have survived. For example, as women and children were given priority seating among the ship’s scarce lifeboats, they were much more likely to survive than other demographics.
 
-You will start by using simple pivot tables and regression in Excel. Then you will use Python and its associated packages to apply regression models and implement a random forest algorithm.
+You will start by using simple pivot tables and regression in Excel. Then you will use Python and its ********** associated packages to apply regression models and implement a random forest algorithm.
 
 ### Basic Requirements - Excel, R, and Rattle
-* Watch the [videos from week 1](https://class.coursera.org/ml-003/lecture/index) of the Coursera Machine Learning class (approx. 20 - 40 minutes, depending on whether you watch them at 2x speed or not). 
-* Learn basic terminology (and make sure to look up any other words you don’t know along the way)
+* Watch the [videos from week 1](https://class.coursera.org/ml-003/lecture/index) of the Coursera Machine Learning class (approx. 20 - 40 minutes, depending on whether you watch them at 2x speed or not).
+* Look up any terminology you're not familiar with, e.g.
   * CSV
   * Dependent Variable
   * Model
@@ -28,35 +28,37 @@ You will start by using simple pivot tables and regression in Excel. Then you wi
 
 
 ##### Problem Analysis
-* Data is in ```train.CSV```
+
+* The data you'll be working with is in ```train.csv```
 * Understand the data by using Excel, google spreadsheet or a similar tool. Pivot tables are extremely helpful here. Determine:
   * Percent of people who survived by sex
   * Percent of people who survived by class
   * Percent of people who survived by age
   * Any other information you think may be relevant or that will help you understand the data
-* Load rattle and get comfortable with its interface, choose a model
-  * Load the data into rattle
-Import the csv
-partition the data into training / validation / test sets
-choose the target column (data you want to predict)
-Visualize the data using rattle’s tools on the explore tab
-Explore the options for each section
-at a minimum use the Explore → Interactive → Latticist
-Try to find a view to support the conclusions you came up with during the problem analysis section above
-Explore the models available in rattle
-Why are there different types of models?
-When would you use each type?
-Run multiple models and look at the data
-understand what AUC (area under the curve) means
-compare different model’s AUCs to see which may be better for your data
-Choose a model to evaluate your data with
-Once you have chosen a model, evaluate how well the model works on your validation data
-Become familiar with the Evaluate Tab
-In the Data section, choose validation.  This will run your model on the validation data
+
+* Get comfortable with the Rattle library for R
+  * Import train.csv into Rattle
+  * Partition the data into training / validation / test sets
+  * Choose the target column (data you want to predict)
+* Visualize the data using Rattle’s tools on the explore tab
+  * Explore the options for each section
+  * At a minimum,  use the Explore → Interactive → Latticist
+  * Try to find a view to support the conclusions you came up with during the problem analysis section above
+* Explore the models available in Rattle
+  * Why are there different types of models?
+  * When would you use each type?
+  * Run multiple models and look at the data
+    * Understand what AUC (area under the curve) means
+    * Compare different model’s AUCs to see which may be better for your data
+  * Choose a model to evaluate your data with
+* Once you have chosen a model, evaluate how well the model works on your validation data
+  * Become familiar with the Evaluate Tab
+  * In the Data section, choose validation.  This will run your model on the validation data
+
 Evaluate the testing data using the model you chose above
-Choose type: Score, Data type: csv: test.csv
-this will output a file in CSV format.
-compare this to the answer.csv file to check the accuracy of your model.
+* Choose type: Score, Data type: csv: test.csv
+* This will output a file in CSV format.
+* Compare this to the answer.csv file to check the accuracy of your model.
 
 Higher Level Concepts:
 Watch the coursera ML Regularization (week 3) - The problem of overfitting (10 min)
