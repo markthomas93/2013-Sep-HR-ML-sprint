@@ -15,13 +15,13 @@ How does your spam filter predict what emails to mark as spam? How does Google g
 
 We created this sprint by adapting a Kaggle tutorial -- you will be using records of survivors from the Titanic disaster to create an algorithmic model capable of predicting whether a passenger lived or died, and what kind of things about a person would make them more or less likely to have survived. For example, as women and children were given priority seating among the ship’s scarce lifeboats, they were much more likely to survive than other demographics.
 
-You will start by using simple pivot tables and regression in Excel. Then you will use Python and its ********** associated packages to apply regression models and implement a random forest algorithm.
+You will start by using simple pivot tables and regression in Excel. Then you will use Python to apply regression models and implement a random forest algorithm.
 
 ### Basic Requirements - Excel, R, and Rattle
 * Watch the [videos from week 1](https://class.coursera.org/ml-003/lecture/index) of the Coursera Machine Learning class (approx. 20 - 40 minutes, depending on whether you watch them at 2x speed or not).
 * Look up any terminology you're not familiar with, e.g.
   * CSV
-  * Dependent Variable
+  * Dependent/Independent Variables
   * Model
   * Features
   * Training / Validation / Testing Data
@@ -91,8 +91,8 @@ You will start by using simple pivot tables and regression in Excel. Then you wi
 * Normalize and scale the data so all values are between zero and one
 * Research a layout of the Titanic and use it to engineer at least two completely unique features
 * Read “Data Mining with Rattle and R” by Graham Williams
-* Go through the Scikit-learn tutorial: http://scikit-learn.org/stable/tutorial/index.html.
-* Watch this video on Sciki-learn, follow along in an iPython notebook: http://www.youtube.com/watch?v=cHZONQ2-x7I
+* Go through the [Scikit-learn tutorial](http://scikit-learn.org/stable/tutorial/index.html)
+* Watch [this video on Sciki-learn](http://www.youtube.com/watch?v=cHZONQ2-x7I) and follow along in an iPython notebook
 * Read the first chapter of “Python for Data Science” by Wes McKinney
 * Watch the “Linear Regression” ML Coursera Lecture
 * Watch the “Regularization” ML Coursera Lecture
