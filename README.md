@@ -10,14 +10,12 @@
 * Extra Credit
 * Nightmare Mode
 
-### Introduction
+### Introduction - getting familiar with ML by predicting survival rates on the Titanic
 How does your spam filter predict what emails to mark as spam? How does Google guess the traffic to the Giant’s game next week? How does Netflix make you movie recommendations? Machine learning is the art of using data to make predictions.
 
-In this sprint you will be using records of survivors from the Titanic disaster and machine learning to create an algorithmic model capable of predicting whether a passenger lived or died, and what kind of things about a person would make them more or less likely to have survived (for example, as women and children were given priority seating among the ship’s scarce lifeboats, they were much more likely to survive than other demographics).
+We created this sprint by adapting a Kaggle tutorial -- you will be using records of survivors from the Titanic disaster to create an algorithmic model capable of predicting whether a passenger lived or died, and what kind of things about a person would make them more or less likely to have survived. For example, as women and children were given priority seating among the ship’s scarce lifeboats, they were much more likely to survive than other demographics.
 
-### Getting familiar with ML - Titanic survival prediction
-
-In this assignment, you’ll learn how to apply machine learning to predict who will lived and died on Titanic voyage. You will start using simple pivot tables and regression in excel. Then using Python to apply regressions and implementing one of the random forest algorithms.
+You will start by using simple pivot tables and regression in Excel. Then you will use Python and its associated packages to apply regression models and implement a random forest algorithm.
 
 ### Basic Requirements - Excel, R, and Rattle
 * Watch the [videos from week 1](https://class.coursera.org/ml-003/lecture/index) of the Coursera Machine Learning class (approx. 20 - 40 minutes, depending on whether you watch them at 2x speed or not). 
