@@ -80,7 +80,6 @@ _Notes on the variables:_
 * Evaluate the testing data using the model you chose above
   * Choose type: Score, Data type: csv: test.csv
   * This will output a file in CSV format.
-## Compare this to the answer.csv file to check the accuracy of your model. - CSV DOESN'T EXIST YET
 
 ##### Higher Level Concepts:
 
@@ -96,7 +95,7 @@ _Notes on the variables:_
 * Create a new feature by regrouping and separating the ticket fares into bins.
   * Combine your new feature with existing features to create a more accurate “survival table”.
   * Write the results to a CSV using the process described in the tutorial.
-* Watch [this introduction video](http://www.youtube.com/watch?v=kwt6XEh7U3g) that talks about the data science process and the Random Forest Algorithm (the second half of the video is especially pertinent).
+* Watch [this video](http://www.youtube.com/watch?v=kwt6XEh7U3g#t=45m35s), which introduces Random Forests, or 'Ensembles of Decision Trees' -- a very powerful and widely-used type of algorithm.
 * Following the [Random Forest Tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-random-forests), use Python's Scikit-Learn library to make predictions with a RF algorithm.
   * Convert strings to floats and booleans to integers
   * Fill out missing data using Pandas (this will make your prediction more accurate)
@@ -125,8 +124,8 @@ _Notes on the variables:_
 * Win money on Kaggle!
 
 ### Recommended Reading
-* “Data Mining with Rattle and R” by Graham Williams
-* “Python for Data Science” by Wes McKinney
+* _Data Mining with Rattle and R_, Graham Williams
+* _Python for Data Science_, Wes McKinney
 
 _This sprint was adapted from a 6-day machine learning sprint created by a group of students from the June 2013 cohort. We used Kaggle tutorials, the Coursera Machine Learning Course, and a bunch of other online resources._
 
