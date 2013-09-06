@@ -95,10 +95,9 @@ _Notes on the variables:_
 * Create a new feature by regrouping and separating the ticket fares into bins.
   * Combine your new feature with existing features to create a more accurate “survival table”.
   * Write the results to a CSV using the process described in the tutorial.
-* Watch [this video](http://www.youtube.com/watch?v=kwt6XEh7U3g#t=45m35s), which introduces Random Forests, or 'Ensembles of Decision Trees' -- a very powerful and widely-used type of algorithm.
+* Watch [this video](http://www.youtube.com/watch?v=kwt6XEh7U3g#t=45m35s), which introduces Random Forests, or 'Ensembles of Decision Trees' -- a very powerful and widely-used type of algorithm (note: video starts at about 45 minutes in, the important stuff starts there and continues for about 15 minutes).
 * Following the [Random Forest Tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-random-forests), use Python's Scikit-Learn library to make predictions with a RF algorithm.
-  * Convert strings to floats and booleans to integers
-  * Fill out missing data using Pandas (this will make your prediction more accurate)
+  * You'll need to munge the data appropriately - can use Pandas or Numpy.
   * Experiment with tuning the parameters of the RF algorithm
   * Write the results of your algorithm to a CSV.
 
