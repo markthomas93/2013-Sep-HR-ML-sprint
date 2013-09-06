@@ -61,7 +61,8 @@ _Notes on the variables:_
 
 ##### Using the Rattle library for R
 * [This is a nice short overview on Rattle](http://onepager.togaware.com/StartO.pdf)
-  * Import train.csv into Rattle
+  * Import train.csv into Rattle (choose test.csv as your source and click 'Execute')
+  * Make sure to click 'Partition', and that this is set to 75/15/15. You will come to understand what this does as we proceed.
   * Choose which variable you want to predict, which variables you think will contribute to this prediction (the inputs), and which variables to ignore
 * Visualize the data using Rattle’s tools on the explore tab
   * Explore the options for each section
@@ -76,10 +77,10 @@ _Notes on the variables:_
   * Choose a model to evaluate your data
 * Once you have chosen a model, evaluate how well the model works on your validation data
   * Become familiar with the Evaluate Tab
-  * In the Data section, choose validation.  This will run your model on the validation data
+    * Under 'Data', choose 'Validation'.  This will run your model on the validation data
 
 * Evaluate the testing data using the model you chose above
-  * Choose type: Score, Data type: csv: test.csv
+  * Choose type = Score, Data type = csv file
   * This will output a file in CSV format.
 
 ##### Higher Level Concepts:
@@ -104,7 +105,7 @@ _Notes on the variables:_
 
 ### Extra Credit
 
-* Split data into training / cross validation / testing sets
+* Use Python to split the data into training / cross validation / testing sets
 * [Normalize](http://en.wikipedia.org/wiki/Normalization_%28statistics%29) and scale the data so all values are between zero and one
 * Research the physical layout of the Titanic and use it to engineer at least two completely unique features
 * Go through the [Scikit-learn tutorial](http://scikit-learn.org/stable/tutorial/index.html)
