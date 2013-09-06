@@ -17,17 +17,17 @@ We created this sprint by adapting a Kaggle tutorial -- you will be using record
 
 You will start by using simple pivot tables and regression in Excel. Then you will use Python to apply regression models and implement a random forest algorithm.
 
+To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lecture/index) of the Coursera Machine Learning class (approx. 20 - 40 minutes, depending on whether you watch them at 2x speed or not).
+
 ### Setting up your environment
 * [The wiki](https://github.com/palimpsests/2013-Sep-HR-ML-sprint/wiki/Setting-up-your-dev-environment) has instructions
 
 ### Prototyping Models with Excel, R, and Rattle
 
 ##### Problem Exploration
-* Watch the [videos from week 1](https://class.coursera.org/ml-003/lecture/index) of the Coursera Machine Learning class (approx. 20 - 40 minutes, depending on whether you watch them at 2x speed or not).
-
 * The data you'll be working with is in ```train.csv```
 
-###### Variable descriptions:
+*Variable descriptions:*
 
 * Survival (0 = No; 1 = Yes)
 * pclass: Passenger Class (1 = 1st; 2 = 2nd; 3 = 3rd)
@@ -52,6 +52,7 @@ You will start by using simple pivot tables and regression in Excel. Then you wi
     * _Child: Son, Daughter, Stepson, or Stepdaughter of Passenger Aboard Titanic_
     * _Other family relatives excluded from this study include cousins, nephews/nieces, aunts/uncles, and in-laws. Some children travelled only with a nanny, therefore parch=0 for them.  As well, some travelled with very close friends or neighbors in a village, however, the definitions do not support such relations._
 
+##### Exploration with Pivot tables
 * Explore the data by using Excel, Google spreadsheets, or similar software.
 * Pivot tables are extremely helpful here - if you're not sure how to use these, refer to the [Kaggle instructions](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-excel). Determine:
   * Percent of people who survived by sex
