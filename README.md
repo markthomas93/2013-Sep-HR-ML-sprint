@@ -13,11 +13,11 @@
 ### Introduction
 How does your spam filter predict what emails to mark as spam? How does Google guess the traffic to the Giant’s game next week? How does Netflix make you movie recommendations? Machine learning is the art of using data to make predictions.
 
-We created this sprint by adapting a Kaggle tutorial -- you will be using records of survivors from the Titanic disaster to create an algorithmic model capable of predicting whether a passenger lived or died, and what kind of things about a person would make them more or less likely to have survived. For example, as women and children were given priority seating among the ship’s scarce lifeboats, they were much more likely to survive than other demographics.
+In this sprint, you start by examining records of survivors from the Titanic disaster to create an algorithmic model capable of predicting whether a passenger lived or died, and what kind of things about a person would make them more or less likely to have survived. For example, as women and children were given priority seating among the ship’s scarce lifeboats, they were much more likely to survive than other demographics.
 
 You will start by using simple pivot tables and regression in Excel. Then you will use Python to apply regression models and implement a random forest algorithm.
 
-To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lecture/index) of the Coursera Machine Learning class (approx. 20 - 40 minutes, depending on whether you watch them at 2x speed or not).
+To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lecture/index) of the Coursera Machine Learning class (approx. 20 - 40 minutes, depending on whether you watch them at 2x speed or not). Then make sure you have a working machine learning environment, as described below.
 
 ### Setting up your environment
 * [The wiki](https://github.com/palimpsests/2013-Sep-HR-ML-sprint/wiki/Setting-up-your-dev-environment) has instructions
@@ -131,4 +131,6 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
 * “Data Mining with Rattle and R” by Graham Williams
 * “Python for Data Science” by Wes McKinney
 
+> This sprint was adapted from a 6-day machine learning sprint created by a group of students from the June 2013 cohort. We used Kaggle tutorials, the Coursera Machine Learning Course, and a bunch of other online resources.
 
+~ T. Chakraborty, K. Geppert, G. Hilkert, G. Morita, A. Spade, F. Tripier, Z. Zibrat
