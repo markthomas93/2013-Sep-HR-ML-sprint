@@ -59,6 +59,7 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
   * Percent of people who survived by class
   * Percent of people who survived by age
   * Any other information you think may be relevant or that will help you understand the data
+* Feel free to make submissions to Kaggle to compare your results!
 
 ##### Using the Rattle library for R
 * [This is a nice short overview on Rattle](http://onepager.togaware.com/StartO.pdf)
@@ -74,7 +75,7 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
   * Run multiple models and look at the data
     * Understand what [AUC](http://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve) means
     * Compare the AUCs from different models to see what works better with the data
-  * Choose a model to evaluate your data with
+  * Choose a model to evaluate your data
 * Once you have chosen a model, evaluate how well the model works on your validation data
   * Become familiar with the Evaluate Tab
   * In the Data section, choose validation.  This will run your model on the validation data
@@ -94,12 +95,12 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
 
 ### Python FTW
 
-* Successfully complete the [Python tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-python) section of the Kaggle Titanic tutorial
+* Complete a similar analysis, this time using Python as instructed in [this Kaggle tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-python).
 * Create a new feature by regrouping and separating the ticket fares into bins.
   * Combine your new feature with existing features to create a more accurate “survival table”.
   * Write the results to a CSV using the process described in the tutorial.
 * Watch [this introduction video](http://www.youtube.com/watch?v=kwt6XEh7U3g) that talks about the data science process and the Random Forest Algorithm (the second half of the video is especially pertinent).
-* Using the [Random Forest Tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-random-forests) on Kaggle and Scikit-Learn, rewrite your code to make predictions using a Random Forest algorithm
+* Following the [Random Forest Tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-random-forests), use Python's Scikit-Learn library to make predictions with a Random Forest algorithm.
   * Convert strings to floats and booleans to integers
   * Fill out missing data using Pandas (this will make your prediction more accurate)
   * Use a Random Forest algorithm to make predictions
