@@ -10,7 +10,7 @@
 * Extra Credit
 * Nightmare Mode
 
-### Introduction: getting familiar with ML by predicting survival rates on the Titanic
+### Introduction
 How does your spam filter predict what emails to mark as spam? How does Google guess the traffic to the Giant’s game next week? How does Netflix make you movie recommendations? Machine learning is the art of using data to make predictions.
 
 We created this sprint by adapting a Kaggle tutorial -- you will be using records of survivors from the Titanic disaster to create an algorithmic model capable of predicting whether a passenger lived or died, and what kind of things about a person would make them more or less likely to have survived. For example, as women and children were given priority seating among the ship’s scarce lifeboats, they were much more likely to survive than other demographics.
@@ -26,16 +26,17 @@ You will start by using simple pivot tables and regression in Excel. Then you wi
 * Watch the [videos from week 1](https://class.coursera.org/ml-003/lecture/index) of the Coursera Machine Learning class (approx. 20 - 40 minutes, depending on whether you watch them at 2x speed or not).
 
 * The data you'll be working with is in ```train.csv```
-* Explore the data by using Excel, Google spreadsheets, or similar software. Pivot tables are extremely helpful here. Determine:
+* Explore the data by using Excel, Google spreadsheets, or similar software.
+* Pivot tables are extremely helpful here - if you're not sure how to use these, refer to the [Kaggle instructions](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-excel). Determine:
   * Percent of people who survived by sex
   * Percent of people who survived by class
   * Percent of people who survived by age
   * Any other information you think may be relevant or that will help you understand the data
 
-##### Using the R Rattle Package
+##### Using the Rattle library for R
 * [This is a nice short overview on Rattle](http://onepager.togaware.com/StartO.pdf)
   * Import train.csv into Rattle
-  * Choose which variable you want to predict, which variables you think will contribute to this prediction, and which variables to ignore
+  * Choose which variable you want to predict, which variables you think will contribute to this prediction (the inputs), and which variables to ignore
 * Visualize the data using Rattle’s tools on the explore tab
   * Explore the options for each section
   * At a minimum,  use Explore → Interactive → Latticist
