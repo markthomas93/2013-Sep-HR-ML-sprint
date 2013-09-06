@@ -38,7 +38,7 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
 * parch: Number of Parents/Children Aboard
 * ticket: Ticket Number
 * fare: Passenger Fare
-* Cabin
+* Cabin: cabin number
 * embarked: Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
 
 ###### Special Notes:
@@ -67,8 +67,8 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
   * Choose which variable you want to predict, which variables you think will contribute to this prediction (the inputs), and which variables to ignore
 * Visualize the data using Rattle’s tools on the explore tab
   * Explore the options for each section
-  * At a minimum,  use Explore → Interactive → Latticist
-  * Try to find a view to support the conclusions you came up with during the problem analysis section above
+  * At a minimum,  use the Explore → Interactive → Latticist feature
+  * Try to find a view to support the conclusions you came up with previously
 * Explore the models available in Rattle
   * Why are there different types of models?
   * When would you use each type?
@@ -83,7 +83,7 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
 * Evaluate the testing data using the model you chose above
   * Choose type: Score, Data type: csv: test.csv
   * This will output a file in CSV format.
-  * Compare this to the answer.csv file to check the accuracy of your model.
+## * Compare this to the answer.csv file to check the accuracy of your model.
 
 ##### Higher Level Concepts:
 
@@ -100,10 +100,9 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
   * Combine your new feature with existing features to create a more accurate “survival table”.
   * Write the results to a CSV using the process described in the tutorial.
 * Watch [this introduction video](http://www.youtube.com/watch?v=kwt6XEh7U3g) that talks about the data science process and the Random Forest Algorithm (the second half of the video is especially pertinent).
-* Following the [Random Forest Tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-random-forests), use Python's Scikit-Learn library to make predictions with a Random Forest algorithm.
+* Following the [Random Forest Tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-random-forests), use Python's Scikit-Learn library to make predictions with a RF algorithm.
   * Convert strings to floats and booleans to integers
   * Fill out missing data using Pandas (this will make your prediction more accurate)
-  * Use a Random Forest algorithm to make predictions
   * Tune the parameters for your Random Forest algorithm
   * Write the results of your Random Forest algorithm to a CSV.
 
