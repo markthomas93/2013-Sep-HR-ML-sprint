@@ -26,6 +26,29 @@ You will start by using simple pivot tables and regression in Excel. Then you wi
 * Watch the [videos from week 1](https://class.coursera.org/ml-003/lecture/index) of the Coursera Machine Learning class (approx. 20 - 40 minutes, depending on whether you watch them at 2x speed or not).
 
 * The data you'll be working with is in ```train.csv```
+##### Variable descriptions:
+* Survival (0 = No; 1 = Yes)
+* pclass: Passenger Class (1 = 1st; 2 = 2nd; 3 = 3rd)
+* Name
+* Sex
+* Age
+* sibsp: Number of Siblings/Spouses Aboard
+* parch: Number of Parents/Children Aboard
+* ticket: Ticket Number
+* fare: Passenger Fare
+* Cabin
+* embarked: Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
+  * Special Notes:
+  * Pclass is a proxy for socio-economic status (SES): 1st ~ Upper; 2nd ~ Middle; 3rd ~ Lower
+  * Age is in Years; Fractional if Age less than One (1).  If the Age is Estimated, it is in the form xx.5
+  * With respect to the family relation variables (i.e. sibsp and parch) some relations were ignored.  The following are the definitions used for sibsp and parch.
+    * Sibling:  Brother, Sister, Stepbrother, or Stepsister of Passenger Aboard Titanic
+    * Spouse:   Husband or Wife of Passenger Aboard Titanic (Mistresses and Fiances Ignored)
+    * Parent:   Mother or Father of Passenger Aboard Titanic
+    * Child:    Son, Daughter, Stepson, or Stepdaughter of Passenger Aboard Titanic
+
+      *Other family relatives excluded from this study include cousins, nephews/nieces, aunts/uncles, and in-laws. Some children travelled only with a nanny, therefore parch=0 for them.  As well, some travelled with very close friends or neighbors in a village, however, the definitions do not support such relations.
+
 * Explore the data by using Excel, Google spreadsheets, or similar software.
 * Pivot tables are extremely helpful here - if you're not sure how to use these, refer to the [Kaggle instructions](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-excel). Determine:
   * Percent of people who survived by sex
@@ -46,7 +69,7 @@ You will start by using simple pivot tables and regression in Excel. Then you wi
   * When would you use each type?
   * Run multiple models and look at the data
     * Understand what [AUC](http://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve) means
-    * Compare different model’s AUCs to see which may be better for your data
+    * Compare the AUCs from different models to see what works better with the data
   * Choose a model to evaluate your data with
 * Once you have chosen a model, evaluate how well the model works on your validation data
   * Become familiar with the Evaluate Tab
