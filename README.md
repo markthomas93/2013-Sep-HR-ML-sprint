@@ -38,7 +38,7 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
   * Cabin: cabin number
   * embarked: Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
 
-###### Special Notes:
+_Notes on the variables:_
 
 * _Pclass is a proxy for socio-economic status (SES): 1st ~ Upper; 2nd ~ Middle; 3rd ~ Lower_
 * _Age is in Years; Fractional if Age less than One (1).  If the Age is Estimated, it is in the form xx.5_
