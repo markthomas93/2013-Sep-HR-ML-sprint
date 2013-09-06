@@ -26,7 +26,9 @@ You will start by using simple pivot tables and regression in Excel. Then you wi
 * Watch the [videos from week 1](https://class.coursera.org/ml-003/lecture/index) of the Coursera Machine Learning class (approx. 20 - 40 minutes, depending on whether you watch them at 2x speed or not).
 
 * The data you'll be working with is in ```train.csv```
-##### Variable descriptions:
+
+###### Variable descriptions:
+
 * Survival (0 = No; 1 = Yes)
 * pclass: Passenger Class (1 = 1st; 2 = 2nd; 3 = 3rd)
 * Name
