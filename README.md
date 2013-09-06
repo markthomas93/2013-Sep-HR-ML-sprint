@@ -127,4 +127,5 @@ _Notes on the variables:_
 * _Data Mining with Rattle and R_, Graham Williams
 * _Python for Data Science_, Wes McKinney
 
-~ T. Chakraborty, K. Geppert, G. Hilkert, G. Morita, A. Spade, F. Tripier, and Z. Zibrat ~
+Good luck!
+~ T. Chakraborty, K. Geppert, G. Hilkert, G. Morita, A. Spade, F. Tripier, and Z. Zibrat
