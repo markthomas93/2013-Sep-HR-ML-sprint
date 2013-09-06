@@ -131,6 +131,6 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
 * “Data Mining with Rattle and R” by Graham Williams
 * “Python for Data Science” by Wes McKinney
 
-> This sprint was adapted from a 6-day machine learning sprint created by a group of students from the June 2013 cohort. We used Kaggle tutorials, the Coursera Machine Learning Course, and a bunch of other online resources.
+_This sprint was adapted from a 6-day machine learning sprint created by a group of students from the June 2013 cohort. We used Kaggle tutorials, the Coursera Machine Learning Course, and a bunch of other online resources._
 
 ~ T. Chakraborty, K. Geppert, G. Hilkert, G. Morita, A. Spade, F. Tripier, Z. Zibrat
