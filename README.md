@@ -128,4 +128,5 @@ _Notes on the variables:_
 * _Python for Data Science_, Wes McKinney
 
 Good luck!
+
 ~ T. Chakraborty, K. Geppert, G. Hilkert, G. Morita, A. Spade, F. Tripier, and Z. Zibrat
