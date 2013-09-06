@@ -1,6 +1,6 @@
 2013-Sep-HR-ML-sprint
 =====================
-> Curriculum for Machine Learning sprint at Hack Reactor
+> Introductory curriculum for the Machine Learning sprint at Hack Reactor
 
 ### Contents
 * Introduction
@@ -11,7 +11,7 @@
 * Nightmare Mode
 
 ### Introduction
-How does your spam filter predict what emails to mark as spam? How does Google guess the traffic to the Giant’s game next week? How does Netflix make you movie recommendations? Machine learning is the art of using data to make predictions.
+How does your spam filter predict what emails to mark as spam? How does Google guess the traffic to the Giant’s game next week? How does Netflix make you movie recommendations? Machine learning is the art and science of using data to make predictions.
 
 In this sprint, you start by examining records of survivors from the Titanic disaster to create an algorithmic model capable of predicting whether a passenger lived or died, and what kind of things about a person would make them more or less likely to have survived. For example, as women and children were given priority seating among the ship’s scarce lifeboats, they were much more likely to survive than other demographics.
 
@@ -24,22 +24,19 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
 
 ### Prototyping Models with Excel, R, and Rattle
 
-##### Problem Exploration
-* The data you'll be working with is in ```train.csv```
-
-*Variable descriptions:*
-
-* Survival (0 = No; 1 = Yes)
-* pclass: Passenger Class (1 = 1st; 2 = 2nd; 3 = 3rd)
-* Name
-* Sex
-* Age
-* sibsp: Number of Siblings/Spouses Aboard
-* parch: Number of Parents/Children Aboard
-* ticket: Ticket Number
-* fare: Passenger Fare
-* Cabin: cabin number
-* embarked: Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
+##### Problem Analysis
+* The data you'll be working with is in ```train.csv```, with the following variables:
+  * Survival (0 = No; 1 = Yes)
+  * pclass: Passenger Class (1 = 1st; 2 = 2nd; 3 = 3rd)
+  * Name
+  * Sex
+  * Age
+  * sibsp: Number of Siblings/Spouses Aboard
+  * parch: Number of Parents/Children Aboard
+  * ticket: Ticket Number
+  * fare: Passenger Fare
+  * Cabin: cabin number
+  * embarked: Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
 
 ###### Special Notes:
 
@@ -133,4 +130,4 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
 
 _This sprint was adapted from a 6-day machine learning sprint created by a group of students from the June 2013 cohort. We used Kaggle tutorials, the Coursera Machine Learning Course, and a bunch of other online resources._
 
-~ T. Chakraborty, K. Geppert, G. Hilkert, G. Morita, A. Spade, F. Tripier, Z. Zibrat
+~ T. Chakraborty, K. Geppert, G. Hilkert, G. Morita, A. Spade, F. Tripier, and Z. Zibrat
