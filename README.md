@@ -83,7 +83,7 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
 * Evaluate the testing data using the model you chose above
   * Choose type: Score, Data type: csv: test.csv
   * This will output a file in CSV format.
-## * Compare this to the answer.csv file to check the accuracy of your model.
+## Compare this to the answer.csv file to check the accuracy of your model. - DOESN'T EXIST YET
 
 ##### Higher Level Concepts:
 
