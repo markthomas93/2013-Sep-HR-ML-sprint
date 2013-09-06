@@ -83,7 +83,7 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
 * Evaluate the testing data using the model you chose above
   * Choose type: Score, Data type: csv: test.csv
   * This will output a file in CSV format.
-## Compare this to the answer.csv file to check the accuracy of your model. - DOESN'T EXIST YET
+## Compare this to the answer.csv file to check the accuracy of your model. - CSV DOESN'T EXIST YET
 
 ##### Higher Level Concepts:
 
@@ -103,21 +103,19 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
 * Following the [Random Forest Tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-random-forests), use Python's Scikit-Learn library to make predictions with a RF algorithm.
   * Convert strings to floats and booleans to integers
   * Fill out missing data using Pandas (this will make your prediction more accurate)
-  * Tune the parameters for your Random Forest algorithm
-  * Write the results of your Random Forest algorithm to a CSV.
+  * Experiment with tuning the parameters of the RF algorithm
+  * Write the results of your algorithm to a CSV.
 
 ### Extra Credit
 
 * Split data into training / cross validation / testing sets
 * [Normalize](http://en.wikipedia.org/wiki/Normalization_%28statistics%29) and scale the data so all values are between zero and one
-* Research a layout of the Titanic and use it to engineer at least two completely unique features
-* Read “Data Mining with Rattle and R” by Graham Williams
+* Research the physical layout of the Titanic and use it to engineer at least two completely unique features
 * Go through the [Scikit-learn tutorial](http://scikit-learn.org/stable/tutorial/index.html)
 * Watch [this video on Sciki-learn](http://www.youtube.com/watch?v=cHZONQ2-x7I) and follow along in an iPython notebook
-* Read the first chapter of “Python for Data Science” by Wes McKinney
-* Watch the “Linear Regression” ML Coursera Lecture
 * Watch the “Regularization” ML Coursera Lecture
 * Watch the “Applying Machine Learning” ML Coursera Lecture
+* Watch the “Linear Regression” ML Coursera Lecture
 
 ### Nightmare Mode
 
@@ -128,4 +126,9 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
 * Rewrite your LR model to implement  “greedy feature selection” -- an algorithm that keeps track of the most useful features as it runs and disregards the poor ones.
 * Rewrite your LR model to use a cross-validation loop to score itself and output results to a CSV.
 * Win money on Kaggle!
+
+### Recommended Reading
+* “Data Mining with Rattle and R” by Graham Williams
+* “Python for Data Science” by Wes McKinney
+
 
