@@ -79,7 +79,6 @@ _Notes on the variables:_
   * Evaluate data with Type = 'ROC'
       * Understand what [AUC](http://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve) means
       * Compare the AUCs from different models to see what works better with the data
-
 * Evaluate the testing data using the model you chose above
   * Choose type = Score, Data type = csv file
   * This will output a file in CSV format.
