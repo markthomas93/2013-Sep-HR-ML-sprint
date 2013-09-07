@@ -116,7 +116,7 @@ _Notes on the variables:_
 
 ### Nightmare Mode
 
-* Find a Kaggle competition where data includes blocks of text and use the NLTK library to extract and engineer 10 unique features. What are the time complexities of your algorithms?
+* Find a Kaggle competition where data includes blocks of text and use the NLTK library to extract and engineer unique features. What are the time complexities of your algorithms?
 * Get the [data](http://qsf.cf.quoracdn.net/QuoraAnswerClassifier_testcases.zip) for the Quora Answer Classifier challenge and make a prediction using a logistic regression model (beware the implications of dealing with sparse data)
 * Rewrite your code to implement an algorithm that creates unique feature combinations to be used by your model.
 * Rewrite your code to implement “one hot encoding” before predictions are made.
