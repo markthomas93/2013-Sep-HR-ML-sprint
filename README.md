@@ -22,6 +22,7 @@ To begin, watch the [videos from week 1](https://class.coursera.org/ml-003/lectu
 
 ### Setting up your environment
 * [The wiki](https://github.com/palimpsests/2013-Sep-HR-ML-sprint/wiki/Setting-up-your-dev-environment) has instructions
+* If you haven't done this already, feel free to pair with someone who has
 
 ### Prototyping Models with Excel, R, and Rattle
 
