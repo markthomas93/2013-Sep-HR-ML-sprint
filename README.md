@@ -64,7 +64,7 @@ _Notes on the variables:_
   * Import train.csv into Rattle (choose test.csv as your source and click 'Execute')
   * Make sure to click 'Partition', and that this is set to 75/15/15. You will come to understand what this does as we proceed.
   * Choose which variable you want to predict, which variables you think will contribute to this prediction (the inputs), and which variables to ignore
-* Visualize the data using Rattle’s tools on the explore tab
+* Visualize the data using Rattle’s tools on the Explore tab
   * Explore the options for each section
   * At a minimum,  use the Explore → Interactive → Latticist feature
   * Try to find a view to support the conclusions you came up with previously
@@ -72,12 +72,13 @@ _Notes on the variables:_
   * Why are there different types of models?
   * When would you use each type?
   * Run multiple models and look at the data
+  * Choose a model to evaluate your data
+* Once you have chosen a model, evaluate how well the model works on your validation data (this is enabled when you partitioned the data in the beginning)
+  * Explore the Evaluate Tab
+    * Under 'Data', choose 'Validation'.  This will run your model on the validation data
+  * Evaluate data with Type = 'ROC'
     * Understand what [AUC](http://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve) means
     * Compare the AUCs from different models to see what works better with the data
-  * Choose a model to evaluate your data
-* Once you have chosen a model, evaluate how well the model works on your validation data
-  * Become familiar with the Evaluate Tab
-    * Under 'Data', choose 'Validation'.  This will run your model on the validation data
 
 * Evaluate the testing data using the model you chose above
   * Choose type = Score, Data type = csv file
