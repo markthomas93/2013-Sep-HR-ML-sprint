@@ -62,7 +62,7 @@ _Notes on the variables:_
 
 ##### Using the Rattle library for R
 * [This is a nice short overview on Rattle](http://onepager.togaware.com/StartO.pdf)
-  * Import train.csv into Rattle (choose test.csv as your source and click 'Execute')
+  * Import train.csv into Rattle
   * Make sure to click 'Partition', and that this is set to 75/15/15. You will come to understand what this does as we proceed.
   * Choose which variable you want to predict, which variables you think will contribute to this prediction (the inputs), and which variables to ignore
 * Visualize the data using Rattle’s tools on the Explore tab
