@@ -117,9 +117,9 @@ _Notes on the variables:_
 ### Nightmare Mode
 
 * Find a Kaggle competition where data includes blocks of text and use the NLTK library to extract and engineer unique features. What are the time complexities of your algorithms?
-* Get the [data](http://qsf.cf.quoracdn.net/QuoraAnswerClassifier_testcases.zip) for the Quora Answer Classifier challenge and make a prediction using a logistic regression model (beware the implications of dealing with sparse data)
+* Get the [data](http://qsf.cf.quoracdn.net/QuoraAnswerClassifier_testcases.zip) for the Quora Answer Classifier challenge and make a prediction using a Logistic Regression model (beware the implications of dealing with sparse data)
 * Rewrite your code to implement an algorithm that creates unique feature combinations to be used by your model.
-* Rewrite your code to implement “one hot encoding” before predictions are made.
+* Rewrite your code to implement [one hot encoding](http://stackoverflow.com/questions/17469835/one-hot-encoding-for-machine-learning) before predictions are made.
 * Rewrite your LR model to implement  “greedy feature selection” -- an algorithm that keeps track of the most useful features as it runs and disregards the poor ones.
 * Rewrite your LR model to use a cross-validation loop to score itself and output results to a CSV.
 * Win money on Kaggle!
