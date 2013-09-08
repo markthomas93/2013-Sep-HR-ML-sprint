@@ -6,12 +6,13 @@ from itertools import combinations
 import numpy as np
 import pandas as pd
 
+
 SEED = 25
 
 def group_data(data, degree=2, hash=hash):
-    """ 
+    """
     numpy.array -> numpy.array
-    
+
     Groups all columns of data into all combinations of triples
     """
     new_data = []
@@ -53,7 +54,7 @@ def cv_loop(X, y, model, N):
     mean_auc = 0.
     for i in range(N):
         X_train, X_cv, y_train, y_cv = cross_validation.train_test_split(
-                                       X, y, test_size=.20, 
+                                       X, y, test_size=.20,
                                        random_state = i*SEED)
         model.fit(X_train, y_train)
         preds = model.predict_proba(X_cv)[:,1]
@@ -61,18 +62,18 @@ def cv_loop(X, y, model, N):
         print "AUC (fold %d/%d): %f" % (i + 1, N, auc)
         mean_auc += auc
     return mean_auc/N
-    
-def main(train='data/train2.csv', test='data/test.csv', submit='logistic_pred.csv'):    
+
+def main(train='data/train2.csv', test='data/test.csv', submit='logistic_pred.csv'):
     print "Reading dataset..."
     train_data = pd.read_csv(train)
     test_data = pd.read_csv(test)
     all_data = np.vstack((train_data.ix[:,1:-1], test_data.ix[:,1:-1]))
 
     num_train = np.shape(train_data)[0]
-    
+
     # Transform data
     print "Transforming data..."
-    dp = group_data(all_data, degree=2) 
+    dp = group_data(all_data, degree=2)
     dt = group_data(all_data, degree=3)
 
     y = array(train_data.ACTION)
@@ -87,13 +88,13 @@ def main(train='data/train2.csv', test='data/test.csv', submit='logistic_pred.cs
     X_train_all = np.hstack((X, X_2, X_3))
     X_test_all = np.hstack((X_test, X_test_2, X_test_3))
     num_features = X_train_all.shape[1]
-    
+
     model = linear_model.LogisticRegression()
-    
+
     # Xts holds one hot encodings for each individual feature in memory
-    # speeding up feature selection 
+    # speeding up feature selection
     Xts = [OneHotEncoder(X_train_all[:,[i]])[0] for i in range(num_features)]
-    
+
     print "Performing greedy feature selection..."
     score_hist = []
     N = 10
@@ -111,12 +112,12 @@ def main(train='data/train2.csv', test='data/test.csv', submit='logistic_pred.cs
         good_features.add(sorted(scores)[-1][1])
         score_hist.append(sorted(scores)[-1])
         print "Current features: %s" % sorted(list(good_features))
-    
+
     # Remove last added feature from good_features
     good_features.remove(score_hist[-1][1])
     good_features = sorted(list(good_features))
     print "Selected features %s" % good_features
-    
+
     print "Performing hyperparameter selection..."
     # Hyperparameter selection loop
     score_hist = []
@@ -129,23 +130,23 @@ def main(train='data/train2.csv', test='data/test.csv', submit='logistic_pred.cs
         print "C: %f Mean AUC: %f" %(C, score)
     bestC = sorted(score_hist)[-1][1]
     print "Best C value: %f" % (bestC)
-    
+
     print "Performing One Hot Encoding on entire dataset..."
     Xt = np.vstack((X_train_all[:,good_features], X_test_all[:,good_features]))
     Xt, keymap = OneHotEncoder(Xt)
     X_train = Xt[:num_train]
     X_test = Xt[num_train:]
-    
+
     print "Training full model..."
     model.fit(X_train, y)
-    
+
     print "Making prediction and saving results..."
     preds = model.predict_proba(X_test)[:,1]
     create_test_submission(submit, preds)
-    
+
 if __name__ == "__main__":
     args = { 'train':  'data/train2.csv',
              'test':   'data/test.csv',
              'submit': 'logistic_regression_pred.csv' }
     main(**args)
-    
+
