@@ -78,8 +78,8 @@ for i in xrange(num_classes):
     survival_table[1, i, j] = np.mean(men_only_stats.astype(np.float))
 
 survival_table[survival_table != survival_table] = 0
-#survival_table[survival_table < 0.5] = 0
-#survival_table[survival_table >= 0.5] = 1
+survival_table[survival_table < 0.5] = 0
+survival_table[survival_table >= 0.5] = 1
 
 print survival_table
 
