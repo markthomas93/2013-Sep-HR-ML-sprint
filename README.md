@@ -1,6 +1,6 @@
 2013-Sep-HR-ML-sprint
 =====================
-> Introductory curriculum for the Machine Learning sprint at Hack Reactor. Adapted from a 6-day machine learning sprint created by a group of students from the Hack Reactor June 2013 cohort. We used Kaggle tutorials, the Coursera Machine Learning Course, and a number of other resources to form this curriculum.
+> Introductory curriculum for the Machine Learning sprint at Hack Reactor. Adapted from a 6-day machine learning sprint created by a group of students from the Hack Reactor June 2013 cohort.
 
 
 ### Contents

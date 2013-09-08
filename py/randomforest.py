@@ -79,6 +79,6 @@ forest = forest.fit(train_data[0::,1::],\
 print 'Predicting'
 output = forest.predict(test_data)
 
-open_file_object = csv.writer(open("myfirstforest.csv", "wb"))
+open_file_object = csv.writer(open("randomforest.csv", "wb"))
 open_file_object.writerow(["PassengerId","Survived"])
 open_file_object.writerows(zip(ids, output))
