@@ -5,8 +5,6 @@ import matplotlib.pyplot as plt
 
 path = os.getcwd()
 
-# path = os.path.dirname(os.path.abspath(__file__))
-
 csv_file_object = csv.reader(open(path + '/train.csv', 'rb'))
 
 header = csv_file_object.next()
@@ -20,11 +18,11 @@ number_passengers = np.size(data[0::, 0].astype(np.float))
 number_survived = np.sum(data[0::, 0].astype(np.float))
 prop_surv = number_survived / number_passengers  # proportion of survivors
 
-#print 'np ' + str(number_passengers)
-#print 'ns ' + str(number_survived)
+print '# passengers: ' + str(number_passengers)
+print '# survived: ' + str(number_survived)
 
-#print '# survivors: ' + str(prop_surv)
-# print
+print '# % survive: ' + str(prop_surv)
+print
 
 women_only_stats = data[0::, 3] == 'female'
 men_only_stats = data[0::, 3] != 'female'
