@@ -92,7 +92,7 @@ _Notes on the variables:_
   * Understand why you need train / validation / and test data sets and how they help solve the overfitting problem
   * Using this information, go back to Rattle and experiment with partitioning the data into these 3 sets
 
-### Python FTW
+### Python
 
 * Complete a similar analysis, this time using Python as instructed in [this Kaggle tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-python).
 * Create a new feature by regrouping and separating the ticket fares into bins.
