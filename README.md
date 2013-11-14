@@ -131,4 +131,4 @@ _Notes on the variables:_
 
 Good luck!
 
-~ T. Chakraborty, K. Geppert, G. Hilkert, G. Morita, A. Spade, F. Tripier, and Z. Zibrat
+~ Z. Zibrat, T. Chakraborty, K. Geppert, G. Hilkert, G. Morita, A. Spade, F. Tripier
