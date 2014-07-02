@@ -100,7 +100,7 @@ _Notes on the variables:_
   * Write the results to a CSV using the process described in the tutorial.
 * Watch [this video](http://www.youtube.com/watch?v=kwt6XEh7U3g#t=45m35s), which introduces Random Forests, or 'Ensembles of Decision Trees' -- a very powerful and widely-used type of algorithm (note: video starts at about 45 minutes in, the important stuff starts there and continues for about 15 minutes).
 * Following the [Random Forest Tutorial](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-random-forests), use Python's Scikit-Learn library to make predictions with a RF algorithm.
-  * You'll need to munge the data appropriately with .
+  * You'll need to munge the data appropriately
   * Experiment with tuning the parameters of the RF algorithm
   * Write the results of your algorithm to a CSV.
 
@@ -131,4 +131,4 @@ _Notes on the variables:_
 
 Good luck!
 
-~ Z. Zibrat, T. Chakraborty, K. Geppert, G. Hilkert, G. Morita, A. Spade, F. Tripier
+– Zach, [Andrew](https://github.com/DodekaHydra), [Tuhin](https://github.com/tuhinc), and [Greg](https://github.com/EpiphanyMachine)
